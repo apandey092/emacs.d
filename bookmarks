@@ -1,0 +1,30 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-capture-last-stored-marker"
+ (filename . "~/Dropbox/org/tokenservice.org")
+ (front-context-string . "** TODO send ema")
+ (rear-context-string . "-21 Tue 15:42]\n\n")
+ (position . 9541))
+("ci"
+ (filename . "~/groupondev/global_subscription_service/.ci.yml")
+ (front-context-string . "exus-dev/content")
+ (rear-context-string . "q -Durl=http://n")
+ (position . 1800))
+("PushSubscriptionManagement.java"
+ (filename . "~/groupondev/global_subscription_service/app/controllers/PushSubscriptionManagement.java")
+ (front-context-string . "    private Push")
+ (rear-context-string . "\n    @Autowired\n")
+ (position . 2115))
+("org-refile-last-stored"
+ (filename . "~/Dropbox/org/tokenservice.org")
+ (front-context-string . "** TODO send ema")
+ (rear-context-string . "-21 Tue 15:42]\n\n")
+ (position . 9541))
+("org-capture-last-stored"
+ (filename . "~/Dropbox/org/refile.org")
+ (front-context-string . "* TODO Wiki for ")
+ (rear-context-string . "ity Questions]]\n")
+ (position . 8230))
+)

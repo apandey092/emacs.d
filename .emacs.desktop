@@ -1,0 +1,1548 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jul 23 22:05:03 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21937 51071 656181 0) (desktop . "206") "apandey@GM23024.group.on" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 10) (right-fringe . 11) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . maximized) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (frameset--id . "B531-F0D2-9C8C-85B3") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "GM23024.group.on") (explicit-name) (tool-bar-position . top) (border-color . "#e9e2cb") (visibility . t) (height . 60) (width . 201) (left . 4) (top . 34)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 56) (min-pixel-width . 140) (min-pixel-height-ignore . 28) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 14) (min-pixel-width-safe . 28)) hc (pixel-width . 1432) (pixel-height . 826) (total-width . 205) (total-height . 59) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 718) (pixel-height . 826) (total-width . 103) (total-height . 59) (normal-height . 1.0) (normal-width . 0.5) (buffer ".gitignore<.emacs.d>" (selected . t) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 298) (start . 1))) (leaf (last . t) (pixel-width . 714) (pixel-height . 826) (total-width . 102) (total-height . 59) (normal-height . 1.0) (normal-width . 0.5) (buffer "init.el" (selected) (hscroll . 0) (fringes 10 11 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 5990) (start . 4524)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list '("/Users/ashish/groupondev/global_subscription_service/TAGS"))
+(setq search-ring '("log" "help" "uat" "services" "devi" "de" "list" "su" "mobile-token" "splunk" "P" "project" "sour" ".pr" "GSS" "src"))
+(setq regexp-search-ring '("subscribe" "^\\S+" "^-" "^***\\S+Things\\s" "\"status\\S+" "^*" "^Commnent" ".saves"))
+(setq register-alist (list (list 82 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1882 (get-buffer ,"scratch.org")))) mk)) '(49 . 0)))
+(setq file-name-history '("/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/.gitignore" "/Users/ashish/.emacs_old" "/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/subscriptions/bes/tools/SubscriptionManagement.java" "/scp:apandey@subscription-service-app1-uat.snc1:/home/apandey/subscription-service-app1-uat.snc1.yml" "/scp:apandey@subscription-service-app1-uat.snc1:/home/apandey/global_subscription_service_v2-2015.03.03_15.07.tar.gz" "/apandey@subscription-service-app1-uat.snc1:" "/apandey@subscribe-app1-uat.snc1:" "/tmp/publish/scratch.mw" "~/.emacs.d/init.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/elisp/init-elpa.el" "/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/subscriptions/bes/tools/SubscriptionManagement.java" "/Users/ashish/groupondev/ops-config/hosts/mobilenotifications-token1.snc1.yml" "~/groupondev/token_push_scheduler/src/main/resources/" "/Users/ashish/groupondev/token_push_scheduler/src/main/resources/logback.xml" "/Users/ashish/testscratch" "/Users/ashish/groupondev/token_push_scheduler/Rakefile" "/Users/ashish/groupondev/token_push_scheduler/.gitignore" "/Users/ashish/.emacs.d/.gitignore" "/Users/ashish/groupondev/global_subscription_service/utilities/subscription_list_mappings.csv" "/Users/ashish/groupondev/global_subscription_service/app/utilities/action/template/CreatePushSubscriptionProcessTemplate.java" "/Users/ashish/Dropbox/org/diary.org" "~/groupondev/global_subscription_service/utilities/insertcitydealchannelmapping.sh" "/Users/ashish/groupondev/global_subscription_service/utilities/README" "~/groupondev/global_subscription_service/utilities/" "~/groupondev/global_subscription_service/app/controllers/EmailNotificationSubscriptionV1.java" "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/dto/TokenSubscriptionDTO.java" "/Users/ashish/.emacs.d/init.el" "" "~/Dropbox/org/" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/Dropbox/org/deploy_checklist.txt" "/Users/ashish/groupondev/ops-config/hosts/subscription-service-app1.snc1.yml" "/Users/ashish/finch.java/src/main/java/com/groupon/optimize/finch/Environment.java" "~/.emacs.d/elisp/org-mode.el" "/Users/ashish/groupondev/data-sync/gss_data_sync/LR/server.properties" "/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/java/com/groupon/subscription/BatchDataSyncMain.java" "~/groupondev/data-sync/gss_data_sync/src/main/java/" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/elisp/init-elpa.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/Dropbox/org/javanotes.org" "/Users/ashish/Dropbox/org/sparknotes.org" "/Users/ashish/Dropbox/org/gssnotes.org" "/Users/ashish/Dropbox/org/dailynotes.org" "/Users/ashish/Dropbox/org/sparknotes.org" "/Users/ashish/.emacs.d/elisp/org-mode.el" "/Users/ashish/Dropbox/org/WorkNotes.org" "/Users/ashish/.emacs.d/elisp/org-mode.el" "/Users/ashish/groupondev/global_subscription_service/README.md" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/org/dailynotes.org_archive" "/Users/ashish/org/dailynotes.org" "/Users/ashish/org/gssnotes.org" "/Users/ashish/org/WorkNotes.org" "/Users/ashish/org/dailynotes.org" "/Users/ashish/.emacs.d/elisp/org-mime.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/elisp/org-mode.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/.init.el.swp" "/Users/ashish/org/dailynotes.org_archive" "/Users/ashish/org/dailynotes.org" "/Users/ashish/.emacs.d/elisp/org-mode.el" "/Users/ashish/org/dailynotes.org" "/Users/ashish/org/gssnotes.org" "/Users/ashish/org/dailynotes.org" "/Users/ashish/org/dailynotes.org_archive" "/Users/ashish/dailynotes~" "/Users/ashish/org/refile.org" "/Users/ashish/git/org/refile.org" "/Users/ashish/groupondev/global_subscription_service/utilities/citydealchannelmapping.csv" "/Users/ashish/grep" "/Users/ashish/.emacs.d/elisp/org-mode.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/elisp/org-mode.el" "/Users/ashish/.emacs.d/elisp/org-mode.org" "/Users/ashish/.emacs.d/init.el" "~/.emacs.d/elisp/init-org.el-backup" "~/.emacs.d/elisp/init-org.el" "/Users/ashish/org/dailynotes.org" "/Users/ashish/org/WorkNotes.org" "/Users/ashish/.emacs.d/elisp/org-mode.el" "/Users/ashish/org/refile.org" "/Users/ashish/.emacs.d/elisp/init-org.el" "/Users/ashish/.emacs.d/init.el" "/Users/ashish/.emacs.d/elisp/init-org.el" "/Users/ashish/.emacs.d/elisp/init-org.el-backup" "/Users/ashish/.emacs.d/elisp/init-org.el" "~/org/WorkNotes.org" "/Users/ashish/org/dailynotes.org" "/Users/ashish/org/WorkNotes.org" "/Users/ashish/.emacs.d/init.el" "~/org/refile.org" "/Users/ashish/.emacs.d/elisp/init-org.el" "/Users/ashish/.emacs.d/elisp/org-mode.org" "/Users/ashish/org/sparknotes.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/ashish/.emacs.d/.gitignore"
+  ".gitignore"
+  'gitignore-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  298
+  '(287 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/ashish/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  5990
+  '(5954 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/ashish/.emacs_old"
+  ".emacs_old"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/ashish/Dropbox/org/gssnotes.org"
+  "gssnotes.org"
+  'org-mode
+  '(abbrev-mode visual-line-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  2797
+  '(2767 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/subscriptions/bes/tools/SubscriptionManagement.java"
+  "SubscriptionManagement.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1981
+  '(54 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "global_subscription_service"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  622
+  '(1168 nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/ashish/Dropbox/org/refile.org"
+  "refile.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  5073
+  '(4400 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-emacs-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashish/Dropbox/org/personal.org"
+  "personal.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  181
+  '(4464 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-emacs-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashish/groupondev/global_subscription_service/conf/logger.prod.xml"
+  "logger.prod.xml"
+  'nxml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1389
+  '(1158 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/ashish/groupondev/global_subscription_service/app/controllers/SubscriptionListManagement.java"
+  "SubscriptionListManagement.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1252
+  '(911 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/conf/routes"
+  "routes"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  5699
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/utilities/SubscriptionListHelper.java"
+  "SubscriptionListHelper.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  3307
+  '(3328 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/ops-config/hosts/subscription-service-app1-uat.snc1.yml"
+  "subscription-service-app1-uat.snc1.yml"
+  'yaml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  3311
+  '(2493 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "groupondev"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  525
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/tmp/publish/scratch.org"
+  "scratch.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1878
+  '(1762 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/tmp/publish/scratch.mw"
+  "scratch.mw"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/tokenservice.org"
+  "tokenservice.org"
+  'org-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1865
+  '(10227 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/bes-tools/src/main/resources/application.properties"
+  "application.properties"
+  'conf-javaprop-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/bes-tools/README.md"
+  "README.md"
+  'markdown-mode
+  '(visual-line-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-append-buffer-args 206
+  nil
+  "configs"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  291
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/subscriptions/bes/tools/configs/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "bes-tools"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  721
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "src"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  237
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "main"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  239
+  '(290 nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/" "/Users/ashish/groupondev/bes-tools/src/main/resources/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "java"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  244
+  '(244 nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/java/" "/Users/ashish/groupondev/bes-tools/src/main/java/com/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "com"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  248
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/java/com/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "groupon"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  256
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "bes"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  274
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/subscriptions/bes/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "tools"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  358
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/subscriptions/bes/tools/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "subscriptions"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  270
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/bes-tools/src/main/java/com/groupon/subscriptions/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/deployment/config/templates/run_data_sync.erb"
+  "run_data_sync.erb"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/division-migration/src/main/java/com/groupon/subscriptions/DivisionMigrator.java"
+  "DivisionMigrator.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/.emacs.d/elisp/init-elpa.el"
+  "init-elpa.el"
+  'emacs-lisp-mode
+  '(override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  905
+  '(3641 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/ops-config/hosts/mobilenotifications-token1.snc1.yml"
+  "mobilenotifications-token1.snc1.yml"
+  'yaml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  411
+  '(373 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "dev"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  267
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/resources/dev/" "/Users/ashish/groupondev/token_push_scheduler/src/main/resources/dev/na/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "pushtoken"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  405
+  '(405 nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/" "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/dbaccess/" "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/handler/" "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/util/" "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/workflow/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "dbaccess"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  293
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/dbaccess/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/dbaccess/TokenDivisionSubscriptionsDAO.java"
+  "TokenDivisionSubscriptionsDAO.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "groupon"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  270
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "com"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  259
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "java"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  255
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/java/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "main"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  250
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "resources"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  519
+  '(630 nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/resources/" "/Users/ashish/groupondev/token_push_scheduler/src/main/resources/divisions/" "/Users/ashish/groupondev/token_push_scheduler/src/main/resources/spring/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/resources/logback.xml"
+  "logback.xml"
+  'nxml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  511
+  '(559 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/#testemacs2.txt#"
+  "#testemacs2.txt#"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  372
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-emacs-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/ops-config/hosts/subscribe-app1.snc1.yml"
+  "subscribe-app1.snc1.yml"
+  'yaml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  4685
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/.emacs.d/elisp/org-mode.org"
+  "org-mode.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  143582
+  '(105259 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/emacsnotes.org"
+  "emacsnotes.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/diary.org"
+  "diary.org"
+  'org-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  3871
+  '(3610 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/dailynotes.org"
+  "dailynotes.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/todo.org"
+  "todo.org"
+  'org-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  59
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  nil
+  "*info*"
+  'Info-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  306996
+  '(nil nil)
+  t
+  '("/Applications/Emacs.app/Contents/Resources/info/org" "Agenda Views" ((history ("/Applications/Emacs.app/Contents/Resources/info/org" "Top" 2202) ("/Applications/Emacs.app/Contents/Resources/info/org" "Variable Index" 957516))))
+  '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/README.md"
+  "README.md"
+  'markdown-mode
+  '(visual-line-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1094
+  '(968 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/Rakefile"
+  "Rakefile"
+  'ruby-mode
+  '(override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  2975
+  '(51 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "spring"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  270
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/resources/spring/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/.gitignore"
+  ".gitignore"
+  'conf-ppd-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  193
+  '(146 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/ops-config/hosts/subscription-service-app1.lup1.yml"
+  "subscription-service-app1.lup1.yml"
+  'yaml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  2331
+  '(2331 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "token_push_scheduler"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1096
+  '(252 nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/service/RocketManV2.java"
+  "RocketManV2.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  5972
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/dto/RocketmanPayload.java"
+  "RocketmanPayload.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/scheduled-push-service/server/src/main/java/com/groupon/mobile/scheduled/server/ScheduledPushServiceStenoLogger.java"
+  "ScheduledPushServiceStenoLogger.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(13142 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/PushTokenMain.java"
+  "PushTokenMain.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1189
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/.projectile"
+  ".projectile"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  29
+  '(29 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/utilities/subscription_list_mappings.csv"
+  "subscription_list_mappings.csv"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/utilities/EmailNotificationSubscriptionHelper.java"
+  "EmailNotificationSubscriptionHelper.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/utilities/ChunkConverter.java"
+  "ChunkConverter.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "action"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  272
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/app/utilities/action/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "utilities"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1277
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/app/utilities/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/Global.java"
+  "Global.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/config/APIKeys.java"
+  "APIKeys.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "impl"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  515
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/app/utilities/action/template/impl/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "app"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  717
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/app/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "template"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  463
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/app/utilities/action/template/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "doc"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  258
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/doc/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/utilities/action/template/impl/MigrationCitydealsCreateSubscriptionProcess.java"
+  "MigrationCitydealsCreateSubscriptionProcess.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/utilities/action/template/impl/DefaultCreateSubscriptionProcess.java"
+  "DefaultCreateSubscriptionProcess.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/utilities/action/template/CreatePushSubscriptionProcessTemplate.java"
+  "CreatePushSubscriptionProcessTemplate.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/.ci.yml"
+  ".ci.yml"
+  'yaml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1794
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "utilities"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  219
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/global_subscription_service/utilities/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/utilities/insertcitydealchannelmapping.sh"
+  "insertcitydealchannelmapping.sh"
+  'sh-mode
+  '(override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/utilities/README"
+  "README"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/utilities/channelMappingTocsv.py"
+  "channelMappingTocsv.py"
+  'python-mode
+  '(override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/controllers/EmailNotificationSubscriptionV1.java"
+  "EmailNotificationSubscriptionV1.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/app/controllers/SubscriptionManagement.java"
+  "SubscriptionManagement.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1661
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/dto/TokenSubscriptionDTO.java"
+  "TokenSubscriptionDTO.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "org"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  180
+  '(nil nil)
+  t
+  '("/Users/ashish/Dropbox/org/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/workflow/NADataSyncWorkflow.java"
+  "NADataSyncWorkflow.java"
+  'java-mode
+  '(iedit-mode abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  42
+  '(765 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/deploy_checklist.txt"
+  "deploy_checklist.txt"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/workflow/DataSyncWorkflow.java"
+  "DataSyncWorkflow.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  163
+  '(163 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "workflow"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  292
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/workflow/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "util"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  873
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/util/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/util/ServerProperties.java"
+  "ServerProperties.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/token_push_scheduler/src/main/java/com/groupon/pushtoken/util/ServiceCallRetryLogic.java"
+  "ServiceCallRetryLogic.java"
+  'java-mode
+  '(iedit-mode abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  593
+  '(583 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "src"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  248
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/token_push_scheduler/src/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/ops-config/hosts/subscription-service-app1.snc1.yml"
+  "subscription-service-app1.snc1.yml"
+  'yaml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/finch.java/src/main/java/com/groupon/optimize/finch/impl/Environment.java"
+  "Environment.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1533
+  '(1684 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "impl"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  269
+  '(nil nil)
+  t
+  '("/Users/ashish/finch.java/src/main/java/com/groupon/optimize/finch/impl/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "finch"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  631
+  '(nil nil)
+  t
+  '("/Users/ashish/finch.java/src/main/java/com/groupon/optimize/finch/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/finch.java/src/main/java/com/groupon/optimize/finch/Environment.java"
+  "Environment.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "hosts"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  737452
+  '(263 nil)
+  t
+  '("/Users/ashish/groupondev/ops-config/hosts/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/todo.org_archive"
+  "todo.org_archive"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/tokenservice.org_archive"
+  "tokenservice.org_archive"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  12277
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/java/com/groupon/subscription/BatchDataSyncMain.java"
+  "BatchDataSyncMain.java"
+  'java-mode
+  '(abbrev-mode override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  865
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/ops-config/hosts/mobilenotifications-token2.lup1.yml"
+  "mobilenotifications-token2.lup1.yml"
+  'yaml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "ops-config"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1181
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/ops-config/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "java"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  258
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/java/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/resources/logback.xml"
+  "logback.xml"
+  'nxml-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/.emacs.d/elisp/org-mode.el"
+  "org-mode.el"
+  'emacs-lisp-mode
+  '(override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  22472
+  '(7805 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/data-sync/gss_data_sync/LR/server.properties"
+  "server.properties"
+  'conf-javaprop-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  133
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/RMAIL"
+  "RMAIL"
+  'rmail-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  114
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided) (case-fold-search . t)))
+
+(desktop-append-buffer-args 206
+  nil
+  "resources"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  313
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/resources/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "main"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  304
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "com"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  262
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/java/com/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "groupon"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  273
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/java/com/groupon/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "subscription"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  289
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/src/main/java/com/groupon/subscription/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "src"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  251
+  '(nil nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/src/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "gss_data_sync"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1155
+  '(254 nil)
+  t
+  '("/Users/ashish/groupondev/data-sync/gss_data_sync/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/refile.org_archive"
+  "refile.org_archive"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  22569
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/README.md"
+  "README.md"
+  'markdown-mode
+  '(visual-line-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  9989
+  '(9989 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/dailynotes.org_archive"
+  "dailynotes.org_archive"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(2247 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/dailynotes.org"
+  "dailynotes.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  85
+  '(316 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/personal.org_archive"
+  "personal.org_archive"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  841
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/gssnotes.org"
+  "gssnotes.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1001
+  '(1889 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/WorkNotes.org"
+  "WorkNotes.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  5
+  '(1749 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  nil
+  "elisp"
+  'dired-mode
+  '(override-global-mode auto-complete-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  457
+  '(nil nil)
+  t
+  '("/Users/ashish/.emacs.d/elisp/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/.emacs.d/.init.el.swp"
+  ".init.el.swp"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . no-conversion)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/wikiinteraction.org"
+  "wikiinteraction.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/git/org/refile.org"
+  "refile.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  114
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  nil
+  "org"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  225
+  '(nil nil)
+  t
+  '("/Users/ashish/git/org/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "git"
+  'dired-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  229
+  '(nil nil)
+  t
+  '("/Users/ashish/git/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/dailynotes~"
+  "dailynotes~"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/refile.org"
+  "refile.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  28
+  '(100 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/groupondev/global_subscription_service/utilities/citydealchannelmapping.csv"
+  "citydealchannelmapping.csv"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  370
+  '(450 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/grep"
+  "grep"
+  'fundamental-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/diary"
+  "diary"
+  'diary-mode
+  '(override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/deploy_checklist.org"
+  "deploy_checklist.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/javanotes.org"
+  "javanotes.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/org/sparknotes.org"
+  "sparknotes.org"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode linum-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/gssnotes.org_archive"
+  "gssnotes.org_archive"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  5537
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/ashish/Dropbox/org/dailynotes.org_archive"
+  "dailynotes.org_archive"
+  'org-mode
+  '(abbrev-mode override-global-mode yas-minor-mode global-auto-revert-mode projectile-mode org-indent-mode flyspell-mode helm-mode magit-auto-revert-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+

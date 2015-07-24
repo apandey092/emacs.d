@@ -21,3 +21,10 @@ session*
 .cask
 tramp
 /var/pcache
+vendor/
+viper/
+autosaves/
+emacs-async/
+helm/
+emacs-eclim/
+jdee-2.4.1/
