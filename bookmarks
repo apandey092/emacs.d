@@ -4,9 +4,9 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored-marker"
  (filename . "~/Dropbox/org/tokenservice.org")
- (front-context-string . "** TODO send ema")
- (rear-context-string . "-21 Tue 15:42]\n\n")
- (position . 9541))
+ (front-context-string . "** How to implem")
+ (rear-context-string . "h/scratch.org]]\n")
+ (position . 6883))
 ("ci"
  (filename . "~/groupondev/global_subscription_service/.ci.yml")
  (front-context-string . "exus-dev/content")
@@ -18,13 +18,13 @@
  (rear-context-string . "\n    @Autowired\n")
  (position . 2115))
 ("org-refile-last-stored"
- (filename . "~/Dropbox/org/tokenservice.org")
- (front-context-string . "** TODO send ema")
- (rear-context-string . "-21 Tue 15:42]\n\n")
- (position . 9541))
+ (filename . "~/Dropbox/org/gssnotes.org")
+ (front-context-string . "** WAITING Revie")
+ (rear-context-string . "1-01 Sun 21:38]\n")
+ (position . 3525))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/org/refile.org")
- (front-context-string . "* TODO Wiki for ")
- (rear-context-string . "ity Questions]]\n")
- (position . 8230))
+ (filename . "~/Dropbox/org/diary.org")
+ (front-context-string . "**** This week I")
+ (rear-context-string . "5-11-10 Tuesday\n")
+ (position . 11526))
 )

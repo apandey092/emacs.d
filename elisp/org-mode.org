@@ -1,4 +1,4 @@
-#+TITLE: Org Mode - Organize Your Life In Plain Text!
+/#+TITLE: Org Mode - Organize Your Life In Plain Text!
 #+LANGUAGE:  en
 #+AUTHOR: Bernt Hansen (IRC: BerntH on freenode)
 #+EMAIL: bernt@norang.ca

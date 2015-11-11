@@ -39,13 +39,6 @@
 (add-to-list 'auto-mode-alist '("\\.cql\\'" . sql-mode))
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\|todo\\)$" . org-mode))
 
-;;
-;; Standard key bindings
-;; (global-set-key "\C-cl" 'org-store-link)
-;; (global-set-key "\C-ca" 'org-agenda)
-;; (global-set-key "\C-cb" 'org-iswitchb)
-
-;;dictionary setting
 
 (setenv "DICTIONARY" "en_GB")
 
@@ -212,6 +205,3 @@
 
 ;;(require 'dirtree)
 (require 'ox-mediawiki)
-
-(require 'eclim)
-(global-eclim-mode)
