@@ -1,4 +1,4 @@
-;;; dirtree.el --- Directory tree views
+ ;;; dirtree.el --- Directory tree views
 
 ;; Copyright (C) 2010 Free Software Foundation, Inc.
 ;;

@@ -4,7 +4,11 @@
 (when (version<= emacs-version "24")
   (message "Your Emacs is old, and some functionality in this config will be disabled. Please upgrade if possible."))
 
+;; Tell emacs where is your personal elisp lib dir
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/" user-emacs-directory))
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+
+
 (require 'init-benchmarking) ;; Measure startup time
 
 (defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
@@ -64,8 +68,6 @@
 ;; (require 'ox-mediawiki)
 
 
-;; use ffap for guessing files
-;;(setq ido-use-filename-at-point 'guess)
 
 ;; auto-complete at startup
 (require 'auto-complete)
@@ -80,7 +82,13 @@
 
 
 (require 'init-ido)
+;; use ffap for guessing files
+(setq ido-use-filename-at-point 'guess)
+(setq ido-create-new-buffer 'always)
+(setq ido-ignore-extensions t)
 (require 'org-mode)
+(add-to-list 'org-modules 'org-habit)
+(require 'org-habit)
 
 
 (require 'smooth-scrolling)
@@ -174,6 +182,7 @@
 (desktop-save-mode 1)
 (setq desktop-restore-eager 10)
 (put 'narrow-to-region 'disabled nil)
+
 (autoload
   'ace-jump-mode
   "ace-jump-mode"
@@ -205,3 +214,56 @@
 
 ;;(require 'dirtree)
 (require 'ox-mediawiki)
+
+(global-set-key (kbd "M-c") 'other-window) ;
+
+;; easy keys for split windows
+(global-set-key (kbd "M-1") 'delete-other-windows) ; 【Alt+3】 unsplit all
+(global-set-key (kbd "M-2") 'split-window-below)
+(global-set-key (kbd "M-3") 'split-window-right)
+(put 'scroll-left 'disabled nil)
+
+(require 'deft)
+;;(setq deft-directory "~/Dropbox/org")
+(setq deft-extensions '("org" "org_archive"))
+(setq deft-default-extension "org")
+(setq deft-text-mode 'org-mode)
+(setq deft-use-filename-as-title t)
+;;(setq deft-use-filter-string-for-filename t)
+(setq deft-auto-save-interval 0)
+;;key to launch deft
+(global-set-key (kbd "C-c d") 'deft)
+;; set F7 to list recently opened file
+(global-set-key (kbd "<f7>") 'recentf-open-files)
+
+(require 'undo-tree)
+(global-undo-tree-mode 1)
+
+;;http://ergoemacs.org/emacs/emacs_copy_cut_current_line.html
+(require 'copy-paste)
+(global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
+(global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
+;;ediff window plain
+(setq ediff-window-setup-function 'ediff-setup-windows-plain)
+
+(add-to-list 'load-path "~/.emacs.d/swiper/")
+(require 'ivy)
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
+(setq ivy-height 10)
+(setq ivy-count-format "(%d/%d) ")
+
+(setq fiplr-ignored-globs '((directories (".git" ".svn"))
+                            (files ("*.jpg" "*.png" "*.zip" "*~" "*.class" "*.jar"))))
+(setq fiplr-root-markers '(".git" ".svn"))
+(global-set-key (kbd "C-x f") 'fiplr-find-file)
+
+
+
+ (global-set-key (kbd "C-x C-b") 'ibuffer)
+    (autoload 'ibuffer "ibuffer" "List buffers." t)
+
+(require 'move-lines)
+(move-lines-binding)
+
+(global-set-key (kbd "C-x g") 'magit-status)

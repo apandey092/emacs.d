@@ -1,0 +1,3 @@
+[submodule "swiper"]
+	path = swiper
+	url = https://github.com/abo-abo/swiper

@@ -1398,7 +1398,7 @@ so change the default 'F' binding in the agenda to allow both"
 ;; Remove completed items from search results
 (setq org-agenda-skip-timestamp-if-done t)
 
-(setq org-agenda-include-diary nil)
+;;(setq org-agenda-include-diary nil)
 (setq org-agenda-diary-file "~/Dropbox/org/diary.org")
 
 (setq org-agenda-insert-diary-extract-time t)
