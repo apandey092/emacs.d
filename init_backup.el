@@ -1,4 +1,3 @@
-
 (let ((minver "23.3"))
   (when (version<= emacs-version "23.1")
     (error "Your Emacs is too old -- this config requires v%s or higher" minver)))
@@ -14,6 +13,8 @@
 
 (defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
 (defconst *is-a-mac* (eq system-type 'darwin))
+
+
 ;;----------------------------------------------------------------------------
 ;; Bootstrap config
 ;;----------------------------------------------------------------------------
@@ -25,6 +26,7 @@
 (require 'init-elpa)      ;; Machinery for installing required packages
 (require 'init-exec-path) ;; Set up $PATH
 
+
 (require 'package)
 
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
@@ -32,29 +34,20 @@
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'load-path "~/.emacs.d/elisp/")
 (add-to-list 'load-path "/.emacs.d/emacs-eclim/")
-(add-to-list 'load-path "./emacs-async")
+
 (require 'use-package)
-
-
-
 (package-initialize)
+(diary)
 
-(global-set-key (kbd "M-c") 'other-window) ;
-
-;; easy keys for split windows
-(global-set-key (kbd "M-1") 'delete-other-windows) ; 【Alt+3】 unsplit all
-(global-set-key (kbd "M-2") 'split-window-below)
-(global-set-key (kbd "M-3") 'split-window-right)
 
 (add-to-list 'auto-mode-alist '("\\.cql\\'" . sql-mode))
-
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\|todo\\)$" . org-mode))
+
 
 (setenv "DICTIONARY" "en_GB")
 
 (require 'auto-complete)
 (auto-complete-mode)
-(global-auto-complete-mode t)
 
 ;; yasnippet for templating
 (require 'yasnippet)
@@ -66,34 +59,37 @@
 (setq mac-command-modifier 'meta)
 (setq mac-option-modifier nil)
 
+;;JDEE for java development and debugging
+;;(add-to-list 'load-path "~/.emacs.d/jdee-2.4.1/lisp")
+;;(load "jde")
 (setq multi-term-program "/bin/zsh")
 
 ;; (add-to-list 'load-path "~/.emacs.d/orgmode-mediawiki")
 ;; (require 'ox-mediawiki)
 
-;; Markdown mode
-(add-to-list 'auto-mode-alist '("\\.md$" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.mdown$" . markdown-mode))
-(add-hook 'markdown-mode-hook
-          (lambda ()
-            (visual-line-mode t)
-            (writegood-mode t)
-            (flyspell-mode t)))
-(setq markdown-command "pandoc --smart -f markdown -t html")
+
+
+;; auto-complete at startup
+(require 'auto-complete)
+(global-auto-complete-mode t)
+
 
 (add-to-list 'load-path "./helm")
 (require 'helm-config)
 ;;(helm-mode 1)
+(add-to-list 'load-path "./emacs-async")
+
+
 
 (require 'init-ido)
 ;; use ffap for guessing files
 (setq ido-use-filename-at-point 'guess)
 (setq ido-create-new-buffer 'always)
 (setq ido-ignore-extensions t)
-
 (require 'org-mode)
 (add-to-list 'org-modules 'org-habit)
 (require 'org-habit)
+
 
 (require 'smooth-scrolling)
 
@@ -112,6 +108,7 @@
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
 
+
 ;; pair brackets
 (require 'autopair)
 
@@ -122,10 +119,21 @@
   (setq-default ispell-program-name "/usr/bin/aspell"))
 (setq-default ispell-list-command "list")
 
+;; Markdown mode
+(add-to-list 'auto-mode-alist '("\\.md$" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.mdown$" . markdown-mode))
+(add-hook 'markdown-mode-hook
+          (lambda ()
+            (visual-line-mode t)
+            (writegood-mode t)
+            (flyspell-mode t)))
+(setq markdown-command "pandoc --smart -f markdown -t html")
+
 ;; Lose UI
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+ 
 
 (setq path-to-ctags "~/tags") ;; <- your ctags path here
 (defun create-tags (dir-name)
@@ -134,11 +142,9 @@
   (shell-command
    (format "ctags -f %s -e -R %s" path-to-ctags (directory-file-name dir-name)))
   )
-
 ;;go to previous
 (bind-key "C-x p" 'pop-to-mark-command)
 (setq set-mark-command-repeat-pop t)
-
 (use-package smartscan
   :init
    (global-smartscan-mode t))
@@ -162,17 +168,15 @@
       (message "Opening file...")
     (message "Aborting")))
 
-;; set F7 to list recently opened file
-(global-set-key (kbd "<f7>") 'recentf-open-files)
-
 (setq inhibit-splash-screen t
       initial-scratch-message nil
       initial-major-mode 'org-mode)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-(add-hook 'emacs-startup-hook 'toggle-frame-maximized)
 
+
+(add-hook 'emacs-startup-hook 'toggle-frame-maximized)
 (autoload 'typing-of-emacs "typing" "The Typing Of Emacs, a game." t)
 
 (desktop-save-mode 1)
@@ -206,9 +210,17 @@
 (add-hook 'org-mode-hook
           (lambda ()
             (local-set-key (kbd "\C-c SPC") 'ace-jump-mode)))
-
 (projectile-global-mode)
 
+;;(require 'dirtree)
+(require 'ox-mediawiki)
+
+(global-set-key (kbd "M-c") 'other-window) ;
+
+;; easy keys for split windows
+(global-set-key (kbd "M-1") 'delete-other-windows) ; 【Alt+3】 unsplit all
+(global-set-key (kbd "M-2") 'split-window-below)
+(global-set-key (kbd "M-3") 'split-window-right)
 (put 'scroll-left 'disabled nil)
 
 (require 'deft)
@@ -221,6 +233,8 @@
 (setq deft-auto-save-interval 0)
 ;;key to launch deft
 (global-set-key (kbd "C-c d") 'deft)
+;; set F7 to list recently opened file
+(global-set-key (kbd "<f7>") 'recentf-open-files)
 
 (require 'undo-tree)
 (global-undo-tree-mode 1)
@@ -230,11 +244,9 @@
 (global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
 (global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
 ;;ediff window plain
-
 (setq ediff-window-setup-function 'ediff-setup-windows-plain)
 
 (add-to-list 'load-path "~/.emacs.d/swiper/")
-
 (require 'ivy)
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
@@ -246,10 +258,12 @@
 (setq fiplr-root-markers '(".git" ".svn"))
 (global-set-key (kbd "C-x f") 'fiplr-find-file)
 
+
 (require 'move-lines)
 (move-lines-binding)
 
 (global-set-key (kbd "C-x g") 'magit-status)
+
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
     (autoload 'ibuffer "ibuffer" "List buffers." t)
@@ -262,6 +276,9 @@
       (unless (eq ibuffer-sorting-mode 'alphabetic)
         (ibuffer-do-sort-by-alphabetic))))
 
+
 ;;prevent splitting windows by default
 (setq split-height-threshold nil
       split-width-threshold nil)
+
+

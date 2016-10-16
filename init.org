@@ -1,3 +1,10 @@
+#+TITLE: EMACS configuration
+#+toc: Emacs Configurations
+#+AUTHOR: Ashish Pandey
+#+EMAIL: apandey092@gmail.com
+* Intialize
+#+header: :tangle yes
+#+begin_src emacs-lisp
 
 (let ((minver "23.3"))
   (when (version<= emacs-version "23.1")
@@ -25,6 +32,13 @@
 (require 'init-elpa)      ;; Machinery for installing required packages
 (require 'init-exec-path) ;; Set up $PATH
 
+
+
+#+end_src 
+* Add main package
+#+header: :tangle yes
+#+begin_src emacs-lisp
+
 (require 'package)
 
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
@@ -39,6 +53,10 @@
 
 (package-initialize)
 
+#+end_src
+* Key bindings
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (global-set-key (kbd "M-c") 'other-window) ;
 
 ;; easy keys for split windows
@@ -46,27 +64,56 @@
 (global-set-key (kbd "M-2") 'split-window-below)
 (global-set-key (kbd "M-3") 'split-window-right)
 
+
+#+end_src
+* SQL Mode setting
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (add-to-list 'auto-mode-alist '("\\.cql\\'" . sql-mode))
-
+#+end_src
+* Org mode files
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\|todo\\)$" . org-mode))
-
+#+end_src
+* Dictionary
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (setenv "DICTIONARY" "en_GB")
-
+#+end_src
+* Auto complete
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (require 'auto-complete)
 (auto-complete-mode)
 (global-auto-complete-mode t)
-
+#+end_src
+* Code Template
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;; yasnippet for templating
 (require 'yasnippet)
 (yas-global-mode 1)
 
+#+end_src
+* Key Binding for OSX
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;;OSX modifiers
 (setq mac-option-key-is-meta nil)
 (setq mac-command-key-is-meta t)
 (setq mac-command-modifier 'meta)
 (setq mac-option-modifier nil)
 
+#+end_src
+* Integrate ZSH
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (setq multi-term-program "/bin/zsh")
+#+end_src
+* README MD 
+#+header: :tangle yes
+#+begin_src emacs-lisp
 
 ;; (add-to-list 'load-path "~/.emacs.d/orgmode-mediawiki")
 ;; (require 'ox-mediawiki)
@@ -81,25 +128,51 @@
             (flyspell-mode t)))
 (setq markdown-command "pandoc --smart -f markdown -t html")
 
+#+end_src
+* Helm init
+#+header: :tangle yes
+#+begin_src emacs-lisp
+
 (add-to-list 'load-path "./helm")
 (require 'helm-config)
 ;;(helm-mode 1)
 
+#+end_src
+
+* Init Ido
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (require 'init-ido)
 ;; use ffap for guessing files
 (setq ido-use-filename-at-point 'guess)
 (setq ido-create-new-buffer 'always)
 (setq ido-ignore-extensions t)
 
+#+end_src
+* Org Mode: Habit
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (require 'org-mode)
 (add-to-list 'org-modules 'org-habit)
 (require 'org-habit)
 
+#+end_src
+* Smooth Scrolling
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (require 'smooth-scrolling)
+#+end_src
+* Disable Backups
+#+header: :tangle yes
+#+begin_src emacs-lisp
 
 ;; no backups
 (setq make-backup-files nil)
 
+#+end_src
+* Text scale size
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;;text increase
 (global-set-key (kbd "C-+") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)
@@ -112,9 +185,18 @@
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms `((".*" ,temporary-file-directory t)))
 
+#+end_src
+* Pair brackets
+#+header: :tangle yes
+#+begin_src emacs-lisp
+
 ;; pair brackets
 (require 'autopair)
 
+#+end_src
+* Spell 
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;; spell
 (setq flyspell-issue-welcome-flag nil)
 (if (eq system-type 'darwin)
@@ -122,11 +204,19 @@
   (setq-default ispell-program-name "/usr/bin/aspell"))
 (setq-default ispell-list-command "list")
 
+#+end_src
+* Lose UI
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;; Lose UI
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 
+#+end_src
+* CTAGS
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (setq path-to-ctags "~/tags") ;; <- your ctags path here
 (defun create-tags (dir-name)
   "Create tags file."
@@ -135,14 +225,28 @@
    (format "ctags -f %s -e -R %s" path-to-ctags (directory-file-name dir-name)))
   )
 
+#+end_src
+* Pop to mark
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;;go to previous
 (bind-key "C-x p" 'pop-to-mark-command)
 (setq set-mark-command-repeat-pop t)
 
+#+end_src
+* +SmartScan+
+
+Not using smartscan
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (use-package smartscan
   :init
    (global-smartscan-mode t))
 
+#+end_src
+* Recent Files
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (require 'recentf)
 
 ;; get rid of `find-file-read-only' and replace it with something
@@ -165,20 +269,43 @@
 ;; set F7 to list recently opened file
 (global-set-key (kbd "<f7>") 'recentf-open-files)
 
+#+end_src 
+* Stop splash screen
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (setq inhibit-splash-screen t
       initial-scratch-message nil
       initial-major-mode 'org-mode)
 
+#+end_src
+* Yes or No as y or n
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (defalias 'yes-or-no-p 'y-or-n-p)
+#+end_src
 
+* Frame maximise
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (add-hook 'emacs-startup-hook 'toggle-frame-maximized)
-
+#+end_src
+* Emacs typing
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (autoload 'typing-of-emacs "typing" "The Typing Of Emacs, a game." t)
+#+end_src
+* Desktop save mode
+#+header: :tangle yes
+#+begin_src emacs-lisp
 
 (desktop-save-mode 1)
 (setq desktop-restore-eager 10)
 (put 'narrow-to-region 'disabled nil)
 
+#+end_src
+* Ace jump mode
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (autoload
   'ace-jump-mode
   "ace-jump-mode"
@@ -207,9 +334,20 @@
           (lambda ()
             (local-set-key (kbd "\C-c SPC") 'ace-jump-mode)))
 
+#+end_src
+* Projectile Mode
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (projectile-global-mode)
-
+#+end_src
+* Disable left scroll
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (put 'scroll-left 'disabled nil)
+#+end_src
+* Deft for searching notes
+#+header: :tangle yes
+#+begin_src emacs-lisp
 
 (require 'deft)
 ;;(setq deft-directory "~/Dropbox/org")
@@ -222,35 +360,75 @@
 ;;key to launch deft
 (global-set-key (kbd "C-c d") 'deft)
 
+#+end_src
+* Undo Tree 
+
+Better handling of undo than regular emacs
+#+header: :tangle yes
+#+begin_src emacs-lisp
+
 (require 'undo-tree)
 (global-undo-tree-mode 1)
 
+
+#+end_src
+* Cut copy paste
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;;http://ergoemacs.org/emacs/emacs_copy_cut_current_line.html
 (require 'copy-paste)
 (global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
 (global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
 ;;ediff window plain
 
+
+#+end_src
+* Ediff for file diffs
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (setq ediff-window-setup-function 'ediff-setup-windows-plain)
-
+#+end_src
+* +Swiper+
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (add-to-list 'load-path "~/.emacs.d/swiper/")
-
+#+end_src
+* Ivy mode
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (require 'ivy)
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
 (setq ivy-height 10)
 (setq ivy-count-format "(%d/%d) ")
 
+#+end_src
+* Fiplr - cool for finding files
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (setq fiplr-ignored-globs '((directories (".git" ".svn"))
                             (files ("*.jpg" "*.png" "*.zip" "*~" "*.class" "*.jar"))))
 (setq fiplr-root-markers '(".git" ".svn"))
 (global-set-key (kbd "C-x f") 'fiplr-find-file)
 
+
+#+end_src
+* Move lines
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (require 'move-lines)
 (move-lines-binding)
 
-(global-set-key (kbd "C-x g") 'magit-status)
 
+#+end_src
+* Magit status
+#+header: :tangle yes
+#+begin_src emacs-lisp
+(global-set-key (kbd "C-x g") 'magit-status)
+#+end_src
+* Ibuffer
+#+header: :tangle yes
+#+begin_src emacs-lisp
 (global-set-key (kbd "C-x C-b") 'ibuffer)
     (autoload 'ibuffer "ibuffer" "List buffers." t)
 (setq ibuffer-expert t)
@@ -262,6 +440,18 @@
       (unless (eq ibuffer-sorting-mode 'alphabetic)
         (ibuffer-do-sort-by-alphabetic))))
 
+#+end_src
+* Prevent Splitting windows
+#+header: :tangle yes
+#+begin_src emacs-lisp
 ;;prevent splitting windows by default
 (setq split-height-threshold nil
       split-width-threshold nil)
+
+
+#+end_src
+* Provide this as config
+(provide 'init-configuration)
+
+
+
