@@ -6,6 +6,7 @@
 	ido-find-file
 	ido-list-directory
 	kill-region
+	smex
 	))
 
 (setq mc/cmds-to-run-once

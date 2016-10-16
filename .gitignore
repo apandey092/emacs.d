@@ -28,3 +28,6 @@ emacs-async/
 helm/
 emacs-eclim/
 jdee-2.4.1/
+.emacs.desktop
+.emacs.desktop.lock
+ido.last
