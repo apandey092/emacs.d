@@ -8,6 +8,7 @@
 ;; Tell emacs where is your personal elisp lib dir
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/" user-emacs-directory))
 (add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-to-list 'load-path "~/.emacs.d/use-package/")
 
 
 (require 'init-benchmarking) ;; Measure startup time
@@ -19,6 +20,8 @@
 ;;----------------------------------------------------------------------------
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 ;;(require 'init-compat)
+(require 'bind-key)
+(require 'use-package)
 (require 'init-utils)
 (require 'init-site-lisp) ;; Must come before elpa, as it may provide package.el
 ;;Calls (package-initialize)
@@ -31,9 +34,12 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'load-path "~/.emacs.d/elisp/")
+(let ((default-directory  "~/.emacs.d/site-lisp/"))
+  (normal-top-level-add-subdirs-to-load-path))
+;;(add-to-list 'load-path "~/.emacs.d/site-lisp/emacs-scala-mode")
 (add-to-list 'load-path "/.emacs.d/emacs-eclim/")
 (add-to-list 'load-path "./emacs-async")
-(require 'use-package)
+
 
 
 
@@ -81,8 +87,8 @@
             (flyspell-mode t)))
 (setq markdown-command "pandoc --smart -f markdown -t html")
 
-(add-to-list 'load-path "./helm")
-(require 'helm-config)
+;;(add-to-list 'load-path "./helm")
+;;(require 'helm-config)
 ;;(helm-mode 1)
 
 (require 'init-ido)
@@ -136,7 +142,7 @@
   )
 
 ;;go to previous
-(bind-key "C-x p" 'pop-to-mark-command)
+;;(bind-key "C-x p" 'pop-to-mark-command)
 (setq set-mark-command-repeat-pop t)
 
 (use-package smartscan
@@ -212,7 +218,7 @@
 (put 'scroll-left 'disabled nil)
 
 (require 'deft)
-;;(setq deft-directory "~/Dropbox/org")
+(setq deft-directory "~/Dropbox/org")
 (setq deft-extensions '("org" "org_archive"))
 (setq deft-default-extension "org")
 (setq deft-text-mode 'org-mode)
@@ -228,7 +234,7 @@
 ;;http://ergoemacs.org/emacs/emacs_copy_cut_current_line.html
 (require 'copy-paste)
 (global-set-key (kbd "<f2>") 'xah-cut-line-or-region) ; cut
-(global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
+;; (global-set-key (kbd "<f3>") 'xah-copy-line-or-region) ; copy
 ;;ediff window plain
 
 (setq ediff-window-setup-function 'ediff-setup-windows-plain)
@@ -265,3 +271,43 @@
 ;;prevent splitting windows by default
 (setq split-height-threshold nil
       split-width-threshold nil)
+;; (setq visible-bell 1)
+(setq ring-bell-function 'ignore)
+(defun duplicate-line()
+  (interactive)
+  (move-beginning-of-line 1)
+  (kill-line)
+  (yank)
+  (open-line 1)
+  (next-line 1)
+  (yank)
+)
+;;(global-set-key (kbd "C-d d") 'duplicate-line)
+(require 'scala-mode)
+;; split windows vertically whenever theer is a choice
+(setq split-height-threshold nil)
+(setq split-width-threshold 160)
+
+;; copy word at point
+;; (defun copy-word (&optional arg)
+;;       "Copy words at point into kill-ring"
+;;        (interactive "P")
+;;        (copy-thing 'backward-word 'forward-word arg)
+;;        ;;(paste-to-mark arg)
+;;      )
+
+;;  (global-set-key (kbd "C-c w")
+
+(require 'grep-o-matic)
+(require 'projectile-speedbar)
+
+(defun now ()
+  "Insert string for the current time formatted like '2:34 PM'."
+  (interactive)                 ; permit invocation in minibuffer
+  (insert (format-time-string "%D %-I:%M %p")))
+
+(defun today ()
+  "Insert string for today's date nicely formatted in American style,
+e.g. Sunday, September 17, 2000."
+  (interactive)                 ; permit invocation in minibuffer
+  (insert (format-time-string "%A, %B %e, %Y")))
